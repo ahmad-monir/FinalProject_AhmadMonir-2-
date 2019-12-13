@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import "rumi_layout.css";
+
+/* 2.1 contextual selectors */
+
+
+/* h1,
+h2,
+h4 {
+    font-weight: bold;
+} */
+
+
+/* article.homeArticle h1 {
+    color: brown;
+    font-size: 1.5em;
+} */
+
+article.homeArticle h2,
+p {
+    color: brown;
+    font-size: 1.5em;
+}
+
+article.homeArticle p {
+    margin-left: 30px;
+}
+
+article.caterArticle p {
+    margin-left: 30px;
+}
+
+article.caterArticle ul {
+    color: brown;
+    margin-left: 30px;
+}
+
+article.eventsArticle p {
+    margin-left: 30px;
+}
+
+article#eventsArticle,
+aside {
+    color: darkgreen;
+    font-size: 1.5em;
+}
+
+article.homeArticle h1 {
+    /* position: relative;
+    float: left; */
+    color: hsl(226, 100%, 50%);
+    font-size: 40px;
+    /* top: 8px;
+    left: 16px; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+article.menuArticle h1 {
+    color: black;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+article.eventsArticle h1 {
+    color: darkgreen;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+article#eventsArticle {
+    color: darkgreen;
+    padding-left: 10px;
+    text-align: center;
+}
+
+article.menuArticle {
+    color: black;
+    font-size: 1.5em;
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+aside {
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+/* h1 {
+    font-size: 2em;
+} */
+
+h4 {
+    font-size: 1.5em;
+}
+
+img {
+    height: 2%;
+    width: 40%;
+}
+
+div.menuArticle {
+    width: 100%;
+}
